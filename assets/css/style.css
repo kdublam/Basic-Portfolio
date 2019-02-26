@@ -13,11 +13,11 @@ body {
     margin: 0px;
 }
 
-header{
+/* header{
     background-color: #ffffff;
     width: 100%; 
     margin: auto;
-}
+} */
 
 .whitebar{
     background-color: white;
@@ -209,12 +209,88 @@ input[type=submit] {
     width: 960px;
     /* padding-left: 20px;
     padding-right: 20px; */
-    padding-bottom:30px;
+    padding-bottom: 30px;
     /* margin-bottom: 80px; */
+    position: relative;
 }
 
 .portfolio h1{
     padding-top: 20px;
     padding-left: 20px;
     color: #4aaaa5;
+}
+
+.portimage{
+    width: 300px;
+    float:left;
+    position: absolute;
+}
+
+.textbox{
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    float: left;
+    top: 130px;
+}
+
+/* Clearfix
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+    padding-top: 15px;
+}
+
+/* Clearfix */
+/* .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+    padding-top: 15px;
+} */
+
+/* Clearfix */
+/* .row3::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+    padding-top: 15px;
+} */ 
+
+.row1{
+    /* margin:20px; */
+    top:100px;
+    /* margin-left: 20px; */
+    position: absolute;
+}
+
+.row2{
+    top:350px;
+    position: absolute;
+}
+
+.row3{
+    top: 600px;
+    position: absolute;
+}
+
+.column1{
+    left: 20px;
+    position: relative;
+
+}
+
+.column2{
+    left: 400px;
+    position: relative;
 }
