@@ -94,7 +94,7 @@ body {
     margin-right: 80px; */
     border: #dddddd;
     width: 960px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
    
     /* padding-left: 20px;
     padding-right: 20px; */
@@ -131,7 +131,7 @@ footer{
     padding-top: 40px;
     right:0;
     left:0;
-    border-top: 4px #4aaaa5;
+    border-top: 4px solid #4aaaa5;
 }
 
 /* Contact Page CSS */
@@ -141,7 +141,7 @@ footer{
     color: #000000;
     margin-top: 20px;
     margin: auto;
-    margin-bottom:30px;
+    margin-bottom:100px;
     /* margin-left: 80px;
     margin-right: 80px; */
     border: #dddddd;
@@ -169,8 +169,10 @@ form{
 
 input[type=text] {
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 10px;
+   
 }
 
 textarea{
@@ -185,7 +187,7 @@ input[type=submit] {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     cursor: pointer;
     margin-top: 10px;
     margin-left: 20px;
@@ -203,7 +205,7 @@ input[type=submit] {
     color: #000000;
     margin-top: 20px;
     margin: auto;
-    margin-bottom:30px;
+    margin-bottom: 100px;
     /* margin-left: 80px;
     margin-right: 80px; */
     border: #dddddd;
@@ -239,7 +241,7 @@ input[type=submit] {
     position: absolute;
     width: 300px;
     float: left;
-    top: 130px;
+    top: 150px;
 }
 
 /* Clearfix
@@ -293,6 +295,6 @@ input[type=submit] {
 }
 
 .column2{
-    left: 400px;
+    left: 370px;
     position: relative;
 }
